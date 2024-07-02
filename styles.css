@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 4em;
+}
+.profile-wrapper {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.box {
+  width: 200px;
+  height: 200px;
+}
+.box > img {
+  width: 100%;
+  border-radius: 50%;
+}
+.profile-details {
+  text-align: center;
+  padding-top: 1em;
+}
+.profile-details > .days-of-the-week {
+  margin: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: cornflowerblue;
+  color: white;
+  font-weight: bold;
+  border-top-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+.container-content > h2 {
+  font-family: heebo;
+  text-align: center;
+}
+.container-content > p {
+  font-style: italic;
+  padding: 1em 1em;
+  font-size: 1em;
+  font-weight: bold;
+}
+ul > li {
+  list-style-type: none;
+}
+ul > li > h4 {
+  padding: 1em 1em;
+  font-family: heebo;
+}
+ul > li > p {
+  padding-left: 1.3em;
+  font-family: heebo;
+}
+ul > li > p > a {
+  text-decoration: none;
+  font-style: italic;
+  color: cornflowerblue;
+}
+
+/* Media query starts here */
+@media only screen and (max-width: 480px) {
+  .container {
+    margin: 1.5em;
+  }
+}
