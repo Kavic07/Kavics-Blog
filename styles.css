@@ -5,6 +5,8 @@
 }
 .container {
   margin: 4em;
+  padding: 2em;
+  background-color: bisque;
 }
 .profile-wrapper {
   display: flex;
